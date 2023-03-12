@@ -40,6 +40,8 @@ namespace Vyjimky
                     Console.WriteLine(e.Message);
                     a = true;
                 }
+                catch(FormatException ex) { Console.WriteLine(ex.Message); }
+
             }
             */
 
